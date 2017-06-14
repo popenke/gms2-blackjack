@@ -41,5 +41,5 @@ for (var i = 0; i < 2; i++)
 	card_x_pos += 32;
 	
 	// Lower card depth
-	obj_card.depth -= 1;
+	obj_card.depth--;
 }

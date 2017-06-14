@@ -12,3 +12,4 @@ with (inst)
 }
 
 card_x_pos += 32
+obj_card.depth--;
