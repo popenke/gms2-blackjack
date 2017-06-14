@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "2c21f1f3-4121-4204-999b-0401307ca825",
+            "Value": {
+                "id": "554d73bb-eecf-4cab-8702-36eacfc0d653",
+                "resourcePath": "objects\\obj_game_loop\\obj_game_loop.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "372ed1f0-80ea-4730-8c64-6823ff09828b",
             "Value": {
                 "id": "8139eab7-dbe6-4002-b5cc-b8c1ff70a8b0",
