@@ -1,18 +1,6 @@
-/// @description Insert description here
-// You can write your code in this editor
-//if (deck_index < 52) 
-//{
-//	image_index = ds_list_find_value(deck, deck_index);
-//} 
-//else 
-//{
-//	image_index = 0;
-//	deck_index = 0;
-//}
-//
-//deck_index++;
+/// @description Buy a card and set a sprite in game for it
 var card = scr_buy();
-var value = scr_card(card);
+var value = scr_card_value(card);
 var inst;
 
 inst = instance_create_layer(card_x_pos, player_y_pos, "PlayerCards", obj_card);

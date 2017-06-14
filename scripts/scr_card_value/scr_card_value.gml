@@ -1,4 +1,4 @@
-/// scr_card(card_index)
+/// scr_card_value(card_index)
 var idx = argument0
 
 // Validação do às

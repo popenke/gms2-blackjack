@@ -2,13 +2,14 @@
 // Randomize while the game is in development
 randomize();
 
-// Card back
-image_index = 57;
+// Deck back
+card_back = 57;
+image_index = card_back;
 
 // Dealer variables
 var inst;
 card_x_pos = 288
-var opponent_y_pos = 128
+opponent_y_pos = 128
 player_y_pos = 448
 
 // Deck creation
@@ -20,24 +21,5 @@ for (var i = 0; i < 52; i++)
 }
 ds_list_shuffle(deck)
 
-// Card dealer
-//for (var i = 0; i < 2; i++)
-//{
-//	// Player card
-//	inst = instance_create_layer(card_x_pos, player_y_pos, "PlayerCards", obj_card);
-//	with (inst)
-//	{
-//		image_index = ds_list_find_value(deck, i);
-//		card_value = value;
-//		show_debug_message("Valor da carta: " + string(value));
-//	}
-	
-//	// Opponent card
-//	inst = instance_create_layer(card_x_pos, opponent_y_pos, "OpponentCards", obj_card);
-//	with (inst)
-//	{
-//		image_index = ds_list_find_value(deck, i);
-//		card_value = value;
-//		show_debug_message("Valor da carta: " + string(value));
-//	}
-//}
+// Card dealing
+scr_dealer();

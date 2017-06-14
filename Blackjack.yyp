@@ -162,7 +162,7 @@
             "Key": "a7a4d1ce-99e0-4e07-a112-b522a21c6470",
             "Value": {
                 "id": "35e611b4-b905-4932-ab86-e285eed50a0c",
-                "resourcePath": "scripts\\scr_card\\scr_card.yy",
+                "resourcePath": "scripts\\scr_card_value\\scr_card_value.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "ecfc90d8-5cb6-46c1-9d6c-0b2ed81633d3",
+            "Value": {
+                "id": "c7adf005-3d2f-4869-bbd4-3008bf9ae6ca",
+                "resourcePath": "scripts\\scr_dealer\\scr_dealer.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f3328a00-d7f3-4cff-9ded-070841c8d821",
             "Value": {
                 "id": "d2672cf4-e71b-4267-84c7-a1a4355ce513",
@@ -225,7 +233,8 @@
     ],
     "script_order": [
         "a7a4d1ce-99e0-4e07-a112-b522a21c6470",
-        "70dc303b-b0b4-4315-89d5-3b8ad62e3d74"
+        "70dc303b-b0b4-4315-89d5-3b8ad62e3d74",
+        "ecfc90d8-5cb6-46c1-9d6c-0b2ed81633d3"
     ],
     "tutorial": ""
 }
