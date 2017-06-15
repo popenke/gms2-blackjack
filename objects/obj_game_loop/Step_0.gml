@@ -7,5 +7,23 @@ opponent_hand = layer_get_all_elements("OpponentCards");
 // Verificação de blackjack
 if (is_the_first_turn)
 {
-	scr_blackjack(); // TODO
+	var player_hand_value = scr_hand_value(player_hand);
+	var opponent_hand_value = scr_hand_value(opponent_hand);
+	
+	if (player_hand_value == 21 && opponent_hand_value == 21)
+	{
+		// is a tie
+	}
+	else if (player_hand_value == 21)
+	{
+		// player win
+	}
+	else if (opponent_hand_value == 21)
+	{
+		// opponent win
+	}
+	else
+	{
+		is_the_first_turn = false;
+	}
 }
