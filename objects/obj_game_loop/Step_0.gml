@@ -7,5 +7,5 @@ opponent_hand = layer_get_all_elements("OpponentCards");
 // Verificação de blackjack
 if (is_the_first_turn)
 {
-	scr_blackjack();
+	scr_blackjack(); // TODO
 }
