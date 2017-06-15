@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "db3f232c-0c80-4a55-ac19-ff939503df1a",
+            "Value": {
+                "id": "dacdfeb9-ac5d-4008-8bce-2a66fadf5a2f",
+                "resourcePath": "scripts\\scr_hand_value\\scr_hand_value.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e57a7583-2e45-4e50-9483-747c592ef6cd",
             "Value": {
                 "id": "937b82a3-ae1a-4425-a2ef-d384e89d6f61",
@@ -241,6 +249,7 @@
     ],
     "script_order": [
         "a7a4d1ce-99e0-4e07-a112-b522a21c6470",
+        "db3f232c-0c80-4a55-ac19-ff939503df1a",
         "70dc303b-b0b4-4315-89d5-3b8ad62e3d74",
         "ecfc90d8-5cb6-46c1-9d6c-0b2ed81633d3"
     ],
