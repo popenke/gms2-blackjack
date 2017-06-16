@@ -1,28 +1,18 @@
 {
-    "id": "8801f379-7f85-40ba-b772-8ccc48a47918",
+    "id": "18388d7b-0175-4393-8a2e-7163f8237b06",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_button_play",
+    "name": "obj_sound_game",
     "eventList": [
         {
-            "id": "30cbc6a2-b945-4981-b885-a585773a0432",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 4,
-            "eventtype": 6,
-            "m_owner": "8801f379-7f85-40ba-b772-8ccc48a47918"
-        },
-        {
-            "id": "0792d0ae-d2a8-4508-a9b5-45f06ce71748",
+            "id": "11d8388a-456a-41d6-8714-1363333c7b58",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "8801f379-7f85-40ba-b772-8ccc48a47918"
+            "m_owner": "18388d7b-0175-4393-8a2e-7163f8237b06"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -41,6 +31,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "456584e8-3511-4752-b951-97d5c27932d8",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }
