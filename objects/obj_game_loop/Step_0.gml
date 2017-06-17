@@ -13,14 +13,17 @@ if (is_the_first_turn)
 	if (player_hand_value == 21 && opponent_hand_value == 21)
 	{
 		// is a tie
+		// end game
 	}
 	else if (player_hand_value == 21)
 	{
 		// player win
+		// end game
 	}
 	else if (opponent_hand_value == 21)
 	{
 		// opponent win
+		// end game
 	}
 	else
 	{

@@ -16,3 +16,7 @@ else if (opponent_hand_value > player_hand_value)
 {
 	// opponent win
 }
+else
+{
+	// it's a tie
+}
