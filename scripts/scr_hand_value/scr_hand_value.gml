@@ -2,13 +2,14 @@
 // Evaluates the total value of the given hand
 
 // Variables
-hand = argument0;
-hand_value = 0;
+var hand = argument0;
+var hand_value = 0;
 
 
-for (var i = 0; i < array_length_1d(hand); i++)
+for (var i = 0; i < ds_list_size(hand); i++)
 {
-	hand_value += hand[i].card_value;
+	hand_value += ds_list_find_value(hand, i).card_value;
+	show_debug_message("passei aqui!!");
 }
 
 return hand_value;

@@ -8,8 +8,15 @@ is_player_ready = false;
 // Opponent control
 is_opponent_ready = false;
 
-// Player cards in hand
-player_hand = layer_get_all_elements("PlayerCards");
+// Player's cards list
+player_hand = obj_deck.player_hand;
+player_hand_value = scr_hand_value(player_hand);
 
 // Opponent cards in hand
-opponent_hand = layer_get_all_elements("OpponentCards");
+opponent_hand = obj_deck.opponent_hand;
+opponent_hand_value = scr_hand_value(opponent_hand);
+
+
+
+
+

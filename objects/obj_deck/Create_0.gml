@@ -8,9 +8,13 @@ image_index = card_back;
 
 // Dealer variables
 var inst;
-card_x_pos = 288
-opponent_y_pos = 128
-player_y_pos = 448
+card_x_pos = 288;
+opponent_y_pos = 128;
+player_y_pos = 448;
+
+// Hand controller
+player_hand = ds_list_create();
+opponent_hand = ds_list_create();
 
 // Deck creation
 deck = ds_list_create();

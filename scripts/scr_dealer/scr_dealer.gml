@@ -11,6 +11,8 @@ for (var i = 0; i < 2; i++)
 		show_debug_message("Valor da carta do player: " + string(card_value));
 	}
 	
+	ds_list_add(player_hand, inst);
+	
 	// Opponent card
 	var opponent_card = scr_buy();
 	
@@ -36,6 +38,9 @@ for (var i = 0; i < 2; i++)
 			show_debug_message("Valor da carta do oponente: " + string(card_value));
 		}
 	}
+	
+	ds_list_add(opponent_hand, inst);
+
 	
 	// Move next card foward
 	card_x_pos += 32;
