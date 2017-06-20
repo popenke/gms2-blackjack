@@ -15,8 +15,3 @@ player_hand_value = scr_hand_value(player_hand);
 // Opponent cards in hand
 opponent_hand = obj_deck.opponent_hand;
 opponent_hand_value = scr_hand_value(opponent_hand);
-
-
-
-
-
