@@ -2,6 +2,9 @@
 // Randomize while the game is in development
 randomize();
 
+// Deck variables
+clicked = false;
+
 // Deck back
 card_back = 57;
 image_index = card_back;

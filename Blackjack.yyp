@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "38143ab8-313c-4109-b3ce-eba4f847fb3f",
+            "Value": {
+                "id": "8ab31999-1e7d-4e6a-8048-9d063b22e286",
+                "resourcePath": "objects\\obj_btn_wait\\obj_btn_wait.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3ac21241-1dcb-43b2-8786-52f98577f13a",
             "Value": {
                 "id": "f51bc5be-f7d7-43b4-b5a5-6f6f87abbc9c",
@@ -164,6 +172,22 @@
                 "id": "5bc420cb-cd42-4cd2-badb-555c832eb7b7",
                 "resourcePath": "views\\88fabb78-e1dd-47b5-8a58-ed09b3e99ded.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9de14796-6652-4a91-aba1-66026b1dba5e",
+            "Value": {
+                "id": "44242698-3753-4db2-abf5-064df7c8145c",
+                "resourcePath": "sprites\\spr_btn_wait\\spr_btn_wait.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9de83b5f-7923-469a-9b6e-fc1ee58a8010",
+            "Value": {
+                "id": "665cf9e2-0640-4305-9ba8-e74fba246f18",
+                "resourcePath": "scripts\\scr_opponent_play\\scr_opponent_play.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -260,7 +284,8 @@
         "db3f232c-0c80-4a55-ac19-ff939503df1a",
         "70dc303b-b0b4-4315-89d5-3b8ad62e3d74",
         "ecfc90d8-5cb6-46c1-9d6c-0b2ed81633d3",
-        "2442185d-c901-4fdc-8452-575277c217a8"
+        "2442185d-c901-4fdc-8452-575277c217a8",
+        "9de83b5f-7923-469a-9b6e-fc1ee58a8010"
     ],
     "tutorial": ""
 }

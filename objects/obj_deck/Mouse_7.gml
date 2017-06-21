@@ -15,3 +15,4 @@ ds_list_add(player_hand, inst);
 
 card_x_pos += 32
 obj_card.depth--;
+clicked = true;
