@@ -154,7 +154,7 @@
             "Key": "61cc3c2b-967a-41ea-8679-f775bdf92383",
             "Value": {
                 "id": "8a4efe18-85a2-48e3-96f6-941ebe1b9b01",
-                "resourcePath": "sounds\\sound_game\\sound_game.yy",
+                "resourcePath": "sounds\\snd_game\\snd_game.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -330,7 +330,7 @@
             "Key": "cfdcf06d-c2a0-4845-a09c-8b59b974a251",
             "Value": {
                 "id": "9c4dc89b-780c-4ff6-8785-7adc4b4223f4",
-                "resourcePath": "sounds\\sound_main_menu\\sound_main_menu.yy",
+                "resourcePath": "sounds\\snd_main_menu\\snd_main_menu.yy",
                 "resourceType": "GMSound"
             }
         },
