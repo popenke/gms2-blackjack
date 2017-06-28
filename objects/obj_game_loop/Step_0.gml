@@ -55,13 +55,28 @@ if (is_opponent_turn)
 }
 
 // Game end
+if (player_hand_value = 21)
+{
+	show_debug_message("PLAYER WIN!");
+	obj_deck.is_clickable = false;
+	//room_restart();
+}
+if (opponent_hand_value = 21)
+{
+	show_debug_message("OPPONENT WIN!");
+	obj_deck.is_clickable = false;
+	//room_restart();
+}
+
 if (player_hand_value > 21)
 {
 	show_debug_message("PLAYER LOSE!");
-	room_restart();
+	obj_deck.is_clickable = false;
+	//room_restart();
 }
 if (opponent_hand_value > 21)
 {
 	show_debug_message("OPPONENT LOSE!");
-	room_restart();
+	obj_deck.is_clickable = false;
+	//room_restart();
 }

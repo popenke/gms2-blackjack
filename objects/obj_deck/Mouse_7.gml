@@ -1,4 +1,7 @@
 /// @description Buy a card and set a sprite in game for it
+
+if (is_clickable)
+{
 var card = scr_buy();
 var value = scr_card_value(card);
 var inst;
@@ -16,3 +19,4 @@ ds_list_add(player_hand, inst);
 card_x_pos += 32
 obj_card.depth--;
 clicked = true;
+}

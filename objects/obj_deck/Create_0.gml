@@ -4,6 +4,7 @@ randomize();
 
 // Deck variables
 clicked = false;
+is_clickable = true;
 
 // Deck back
 card_back = 57;
